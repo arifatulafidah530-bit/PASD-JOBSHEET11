@@ -1,0 +1,20 @@
+public class Mahasiswa06 {
+    String nim;
+    String nama;
+    String kelas;
+    double ipk;
+
+    public Mahasiswa06() {
+    }
+
+    public Mahasiswa06(String nim, String nama, String kelas, double ipk) {
+        this.nim = nim;
+        this.nama = nama;
+        this.kelas = kelas;
+        this.ipk = ipk;
+    }
+
+    public void tampilInformasi() {
+    System.out.printf("%-10s %-12s %-5s %-3.1f\n", nama, nim, kelas, ipk);
+    }
+}
